@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Exemplo 09 - Exibindo Componentes HTML</title>
+</head>
+<body>
+
+	<div align="center">
+		
+		<h2>O que o JavaScript pode fazer?</h2>
+	
+		<p id="pgf" style="display: none">Hello JavaScript!</p>
+		
+		<button id="btn" onclick="exibir('pgf')">Clique Aqui</button>
+		
+	</div>
+	
+	<script type="text/javascript">
+		function exibir(obj) {
+			document.getElementById(obj).style.display = 'block';
+		}
+	</script>
+
+</body>
+</html>

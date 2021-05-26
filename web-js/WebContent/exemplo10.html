@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Exemplo 10 - Mudando texto de componente</title>
+</head>
+<body>
+
+	<div align="center">
+	
+		<h2>O que o JavaScript pode fazer?</h2>
+		
+		<p id="pgf">O JavaScript pode alterar o texto de um componente.</p>
+		
+		<button id="btn" onclick="alterar()">Clique Aqui</button>
+	
+	</div>
+	
+	<script type="text/javascript">
+		function alterar() {
+			document.getElementById('pgf').innerHTML = 'Texto alterado pelo click do botão!';	
+		}
+	</script>
+
+</body>
+</html>
